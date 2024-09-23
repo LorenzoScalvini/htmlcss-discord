@@ -15,6 +15,10 @@ a {
 	text-decoration: none;
 }
 
+strong {
+    text-align: center;
+}
+
 html {
 	font-family: 'Poppins', system-ui;
 }
@@ -23,11 +27,24 @@ body {
 	background-color: #efefef;
 }
 
+.bottom-content {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.title-desc {
+    font-size: 30px;
+}
+
+.img-content {
+    width: 750px;
+}
 
 .flex-container {
 	display:flex;
 	justify-content: center;
 	align-items: center;
+    min-height: 400px
   }
 
   .row {
@@ -99,6 +116,11 @@ body {
 	justify-content: center;
 }
 
+.menu-title {
+    color: #245EE8;
+    text-align: center;
+}
+
 .menu {
 	display: flex;
 	gap: 20px;
@@ -129,7 +151,7 @@ body {
 }
 
 .grey {
-    background-color: grey;
+    background-color: rgb(218, 218, 218);
 }
 
 .blue{
